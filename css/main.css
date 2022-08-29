@@ -87,7 +87,35 @@ nav a {
 }
 
 h1 {
+  font-family: "Sorts Mill Goudy";
+  font-size: 24px;
+  line-height: 1.2;
 }
 
 p {
+  font-family: "Sorts Mill Goudy";
+  line-height: 1.2;
+  margin: 15px;
+}
+
+.cooks-name {
+  font-family: "Libre Franklin";
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.articles {
+  background-color: var(--secondary-color);
+  padding: 20px;
+}
+
+h2 {
+  font-family: "Sorts Mill Goudy";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: left;
+  padding-bottom: 1px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid black;
 }
