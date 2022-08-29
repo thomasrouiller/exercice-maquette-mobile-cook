@@ -30,7 +30,11 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
-  max-width: 375px;
+  max-width: 320px;
+  text-align: center;
+  margin: auto;
+  background-color: var(--main-color);
+  box-shadow: #000000;
 }
 
 a {
@@ -52,3 +56,38 @@ video {
 font-family: 'Libre Franklin', sans-serif;
 font-family: 'Sorts Mill Goudy', serif;
 */
+
+nav {
+  font-family: "Libre Franklin";
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
+
+nav a {
+  margin: 0px 8px;
+}
+
+.intro-card {
+  padding: 20px;
+}
+
+.accent-text {
+  font-family: "Libre Franklin";
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: var(--main-color);
+  background-color: var(--accent-color);
+  display: inline-block;
+  padding: 0px 20px;
+  border-radius: 20px;
+  margin: 10px 0px 20px 0px;
+}
+
+h1 {
+}
+
+p {
+}
