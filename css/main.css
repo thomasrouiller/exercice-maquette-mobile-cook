@@ -119,3 +119,21 @@ h2 {
   margin-bottom: 15px;
   border-bottom: 2px solid black;
 }
+
+article img {
+  margin-top: -2.5px;
+}
+
+article {
+  padding-bottom: 18px;
+  background-color: var(--main-color);
+  margin-bottom: 20px;
+  border: 1px solid #858585;
+}
+
+h3 {
+  font-family: "Libre Franklin";
+  font-size: 20px;
+  line-height: 1.2;
+  margin-top: 18px;
+}
