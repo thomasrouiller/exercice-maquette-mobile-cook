@@ -3,6 +3,10 @@
 // ==================================== */
 
 :root {
+  --main-color: #ffffff;
+  --secondary-color: #ebede8;
+  --footer-color: #00000000;
+  --accent-color: #e33d26;
 }
 
 /* ====================================
@@ -26,6 +30,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
+  max-width: 375px;
 }
 
 a {
@@ -42,3 +47,8 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+/* 
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Sorts Mill Goudy', serif;
+*/
